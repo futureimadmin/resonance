@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: #0e0f0c;
+  --accent: #8a9e90;
+  --cream: #f0ece3;
+}
+
+body {
+  background: var(--surface);
+  color: var(--cream);
+}
